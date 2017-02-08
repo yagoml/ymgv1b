@@ -5,8 +5,9 @@ Manual
 Preencher as configurações no formulário 'nova matriz' e clicar em gerar.
 
 Matriz: 
-- Células rosas: objetivo inicial e final;
 - Células verdes: representam as células ativas;
+- Células pretas: representam as células inativas;
+- Células rosas: objetivo inicial e final;
 - Células azuis: representam a rota atual;
 
 Rotas encontradas:
