@@ -17,6 +17,7 @@ Rotas encontradas:
 - Rotas azuis: rotas encontradas;
 - Rotas verdes: rotas que levam ao destino;
 - Rota amarela: menor rota encontrada (não levam ao destino);
+- Rota vermelha: rota atual selecionada;
 
 
 Erros não resolvidos ainda:
