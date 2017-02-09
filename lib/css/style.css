@@ -1,6 +1,6 @@
 .table-matriz{
     width: fit-content;
-    width: moz-fit-content;
+    width: -moz-fit-content;
     margin: 15px auto; 
     border: 1px solid #aaa;
     background: #eee;
@@ -72,6 +72,15 @@
 }
 .novaMatriz button{
     margin: 10px auto;
+}
+
+.fitContent{
+    width: fit-content;
+    width: -moz-fit-content;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 50px;
 }
 
 @font-face {

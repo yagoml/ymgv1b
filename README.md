@@ -11,13 +11,13 @@ Matriz:
 - Células azuis: representam a rota atual;
 
 Rotas encontradas:
-- Clique em rota para visualizar a mesma: O programa percorrerá na matriz a rota clicada;
-
+- Clique no botão da rota para visualizar a mesma: O programa percorrerá na matriz a rota selecionada;
 - X: reseta rota da matriz;
-- Rotas azuis: rotas encontradas;
-- Rotas verdes: rotas que levam ao destino;
-- Rota amarela: menor rota encontrada (não levam ao destino);
-- Rota vermelha: rota atual selecionada;
+Botões de Rotas:
+- Azul: rotas encontradas;
+- Verde: rotas que levam ao destino;
+- Amarelo: menor rota encontrada (não levam ao destino);
+- Vermelho: rota atual selecionada;
 
 
 Erros não resolvidos ainda:

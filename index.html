@@ -13,7 +13,7 @@
 
     <body>
         <div class="container-fluid">
-            <div class="col-sm-2 col-xs-12 novaMatriz">
+            <div class="col-md-2 col-sm-4 col-xs-12 novaMatriz">
                 <form id="novaMatrizForm">
                     <h4 class="text-center">Nova Matriz</h4>
                     <fieldset class="text-center"><b>Dimensão</b></fieldset>
@@ -32,10 +32,10 @@
                     <div class="col-sm-6 col-xs-12">
                         <label for="inicioColuna">Coluna <input required type="number" id="inicioColuna"></label>
                     </div>
-					
-					<div class="col-xs-12 text-center">
-						<b>Celuna final</b>
-					</div>
+
+                    <div class="col-xs-12 text-center">
+                        <b>Celuna final</b>
+                    </div>
                     <div class="col-sm-6 col-xs-12">
                         <label for="fimLinha">Linha <input required type="number" id="fimLinha"></label>
                     </div>
@@ -47,16 +47,16 @@
                     <button class="btn btn-primary" id="btnForm" type="submit">Gerar</button>
                 </form>
             </div>
-            
-            <div class="col-sm-7 col-xs-12">
+
+            <div class="col-md-10 col-sm-8 col-xs-12">
+                <div id="rotas" class="col-xs-12 margV5"></div>
+                <div id="infoRotas" class="row text-center"></div>
+            </div>
+
+            <div class="col-xs-12">
                 <div id="titleMatriz" class="row text-center"></div>
                 <table class="table-matriz"></table>
                 <div id="rotaAtual" class="row text-center"></div>
-            </div>
-            
-            <div class="col-sm-3 col-xs-12">
-                <div id="rotas" class="col-xs-12 margV5"></div>
-                <div id="infoRotas" class="row text-center"></div>
             </div>
         </div>
 
