@@ -16,7 +16,7 @@ Rotas encontradas:
 Botões de Rotas:
 - Azul: rotas encontradas;
 - Verde: rotas que levam ao destino;
-- Amarelo: menor rota encontrada (não levam ao destino);
+- Amarelo: menor rota encontrada (pode ou não levar ao destino);
 - Vermelho: rota atual selecionada;
 
 
