@@ -20,8 +20,4 @@ Botões de Rotas:
 - Vermelho: rota atual selecionada;
 
 
-Erros não resolvidos ainda:
-* Não são encontradas todas as rotas possíveis;
-
-
 Autor: Yago M. Laignier
