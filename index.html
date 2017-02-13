@@ -18,27 +18,27 @@
                     <h4 class="text-center">Nova Matriz</h4>
                     <fieldset class="text-center"><b>Dimensão</b></fieldset>
                     <div class="col-sm-6 col-xs-12">
-                        <label for="linhas">Linhas <input required type="number" id="linhas"></label>
+                        <label for="linhas">Linhas <input required type="number" id="linhas" min="1" max="5"></label>
                     </div>
                     <div class="col-sm-6 col-xs-12" style="margin-bottom: 10px;">
-                        <label for="colunas">Colunas <input required type="number" id="colunas"></label>
+                        <label for="colunas">Colunas <input required type="number" id="colunas" min="1" max="5"></label>
                     </div>                            
                     <h4 class="text-center">Objetivo</h4>
                     <fieldset class="text-center"><b>Celuna inicial</b></fieldset>
                     <div class="col-sm-6 col-xs-12">
-                        <label for="inicioLinha">Linha <input required type="number" id="inicioLinha"></label>
+                        <label for="inicioLinha">Linha <input required type="number" id="inicioLinha" min="1" max="5"></label>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <label for="inicioColuna">Coluna <input required type="number" id="inicioColuna"></label>
+                        <label for="inicioColuna">Coluna <input required type="number" id="inicioColuna" min="1" max="5"></label>
                     </div>
                     <div class="col-xs-12 text-center">
                         <b>Celuna final</b>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <label for="fimLinha">Linha <input required type="number" id="fimLinha"></label>
+                        <label for="fimLinha">Linha <input required type="number" id="fimLinha" min="1" max="5"></label>
                     </div>
                     <div class="col-sm-6 col-xs-12">
-                        <label for="fimColuna">Coluna <input required type="number" id="fimColuna"></label>
+                        <label for="fimColuna">Coluna <input required type="number" id="fimColuna" min="1" max="5"></label>
                     </div>
                     <button class="btn btn-primary pull-right" id="btnForm" type="button" onclick="novaMatriz()">Gerar</button>
                 </form>
