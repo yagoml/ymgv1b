@@ -1,8 +1,9 @@
-# ymgv1b
+# YML Matriz Grafos Versão 1.00 BETA
 
 Manual
 
 Preencher as configurações no formulário 'nova matriz' e clicar em gerar.
+(Limitação versão beta: Dimensão máxima da matriz: 5x5)
 
 Matriz: 
 - Células verdes: representam as células ativas;
